@@ -7,6 +7,6 @@
 -⚡ متعة حقيقة: ...
 
 <!---
-Sokeonlin/Sokeonlin is a special ✨ repository ✨ because "ReadMe.md" (this file) shows up on your GitHub profile.
-You can click the preview link to take a look at your changes.
+Sokeonlin / Sokeonlin هو مستودع ✨ خاص ✨ لأنه " ؛ReadMe.md" ؛ (هذا الملف) يظهر على ملف تعريف GitHub الخاص بك.
+يمكنك النقر فوق رابط المعاينة لإلقاء نظرة على التغييرات الخاصة بك.
 -->
