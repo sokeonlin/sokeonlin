@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>سوقي - منتجات ديناميكية</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      direction: rtl;
+    }
+    header {
+      background-color: #ff6f00;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+    .cart-link {
+      position: absolute;
+      left: 20px;
+      top: 20px;
+      background: white;
+      color: #ff6f00;
+      padding: 8px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .products {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #ff6f00;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a class="cart-link" href="cart.html">السلة</a>
+    <h1>سوقي</h1>
+    <p>منتجات ديناميكية</p>
+  </header>
+
+  <section class="products" id="products-container">
+    <!-- سيتم تحميل المنتجات هنا -->
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
